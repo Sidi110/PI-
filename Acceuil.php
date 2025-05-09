@@ -188,7 +188,7 @@ $notifications = [
                     'data' => [12, 15, 18, 16, 20, 24]
                 ];
                 ?>
-                <?= http_build_query($chartData) ?>" -->
+                <!-- src="generate_chart.php?<?= http_build_query($chartData) ?>" -->
                 <img src="image.png" 
                      alt="Monthly Statistics Chart" style="width: 100%; height: 100%; object-fit: contain;">
             </div>
