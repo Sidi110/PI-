@@ -182,8 +182,7 @@ $notifications = [
                 <h3 class="card-title">Statistiques des partenariats</h3>
             </div>
             <div class="chart-container">
-                <?php
-                
+                 <?php
                 $chartData = [
                     'labels' => ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
                     'data' => [12, 15, 18, 16, 20, 24]
